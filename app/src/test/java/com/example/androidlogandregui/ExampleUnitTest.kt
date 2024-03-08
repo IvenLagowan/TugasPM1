@@ -1,4 +1,4 @@
-package com.rival.tutorialloginregist
+package com.example.androidlogandregui
 
 import org.junit.Test
 

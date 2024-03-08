@@ -1,118 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroud"
-    android:orientation="vertical"
+    android:background="#160E24"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="5dp"
-        android:fontFamily="@font/poppinsextra"
-        android:gravity="center"
-        android:text="Welcome !"
-        android:textColor="@color/primary"
-        android:textSize="40sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppinsregular"
-        android:gravity="center"
-        android:text="Silahkan login untuk melanjutkan"
-        android:textColor="@color/primary"
-        android:textSize="15sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="35dp">
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="0dp">
 
-        <EditText
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/username"
-            android:fontFamily="@font/poppinsregular"
-            android:hint="Username"
-            android:paddingLeft="8dp"
-            android:paddingTop="5dp"
-            android:textSize="14dp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/password"
-            android:fontFamily="@font/poppinsregular"
-            android:hint="Password"
-            android:paddingLeft="8dp"
-            android:paddingTop="5dp"
-            android:textSize="14dp" />
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/top_background1" />
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/poppinssemibold"
-            android:text="Lupa Password"
-            android:textColor="@color/primary" />
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Iven-Code"
+            android:textColor="#FADAC7"
+            android:textSize="50sp"
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button_shape"
-            android:backgroundTint="@color/primary"
-            android:fontFamily="@font/poppinssemibold"
-            android:text="Masuk" />
+            android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="341dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/garis" />
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/google_btn" />
+        <ImageView
+            android:id="@+id/getstartedbtn"
+            android:layout_width="167dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+
+            app:srcCompat="@drawable/btn_arrow" />
+
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="end"
-            android:text="Belum Memiliki Akun?"
-            android:textColor="@color/primary" />
-
-        <TextView
-            android:id="@+id/register_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:fontFamily="@font/poppinssemibold"
-            android:text=" Daftar"
-            android:textColor="@color/primary"
-            android:textSize="15sp"
-            android:layout_marginTop="1dp"/>
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
