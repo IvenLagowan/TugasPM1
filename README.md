@@ -27,7 +27,7 @@ License:
 This project is licensed under the MIT License.
 
 
+<img width="410" alt="1" src="https://github.com/IvenLagowan/TugasPM1/assets/94290469/23e1a5b2-cbfc-4fa3-b892-f2a6b88b12a1">
+<img width="168" alt="2" src="https://github.com/IvenLagowan/TugasPM1/assets/94290469/5502c8d0-78a1-42dd-8b90-f550696565d9">
+<img width="150" alt="3" src="https://github.com/IvenLagowan/TugasPM1/assets/94290469/28fa9678-2087-46c8-8352-9ecc279923c7">
 
-<img width="177" alt="getstarted design" src="https://github.com/AlexCode225/Android-Login-and-Register-UI-/assets/83403103/7c401499-78f0-481f-9ce9-f06aab5530cf">
-<img width="160" alt="log design" src="https://github.com/AlexCode225/Android-Login-and-Register-UI-/assets/83403103/f5f45c9e-a8c7-4ecb-9408-9e8746ab24a3">
-<img width="158" alt="reg1 design" src="https://github.com/AlexCode225/Android-Login-and-Register-UI-/assets/83403103/b09fdc77-df40-4ab1-98db-f766b4ec2fc9">
